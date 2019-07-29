@@ -1,0 +1,1268 @@
+{
+	"1": 
+	{
+			"LINE AGENT": 
+			{
+				"row": [1,6],
+				"column": [139,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "LINE AGENT",
+					"bottom": "SHIPPER",
+					"left": -1,
+					"right": "OBL INSTRUCTIONS"
+				}
+			},
+			"OBL INSTRUCTIONS": 
+			{
+				"row": [4,6],
+				"column": [230,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "OBL INSTRUCTIONS",
+					"bottom": "NOTIFY",
+					"left": "LINE AGENT",
+					"right": -1
+				}
+			},
+			"SHIPPER": 
+			{
+				"row": [8,13],
+				"column": [139,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "SHIPPER",
+					"bottom": "CONSIGNEE",
+					"left": -1,
+					"right": "NOTIFY"
+				}
+			},
+			"NOTIFY": 
+			{
+				"row": [8,13],
+				"column": [229,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "NOTIFY",
+					"bottom": "CONSIGNEE",
+					"left": "SHIPPER",
+					"right": -1
+				}
+			},
+			"CONSIGNEE": 
+			{
+				"row": [15,18],
+				"column": [139,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "CONSIGNEE",
+					"bottom": "PLACE OF RECEIPT",
+					"left": -1,
+					"right": -1
+				}
+			},
+			"PLCAE OF RECEIPT": 
+			{
+				"row": [19,20],
+				"column": [186,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "OCEAN VESSEL ..",
+					"left": "PLACE OF RECEIPT",
+					"right": "PRE-CARRIAGE BY ."
+				}
+			},
+			"OCEAN VESSEL ..": 
+			{
+				"row": [20,21],
+				"column": [186,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "PORT OF LOADING .",
+					"left": "OCEAN VESSEL ..",
+					"right": "VOYAGE"
+				}
+			},
+			"PORT OF LOADING .": 
+			{
+				"row": [21,22],
+				"column": [186,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "PORT OF DISCHARGE",
+					"left": "PORT OF LOADING .",
+					"right": "ETS......."
+				}
+			},
+			"PORT OF DISCHARGE": 
+			{
+				"row": [22,23],
+				"column": [186,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "PLACE OF DELIVERY",
+					"left": "PORT OF DISCHARGE",
+					"right": "ETA"
+				}
+			},
+			"PLACE OF DELIVERY": 
+			{
+				"row": [23,24],
+				"column": [186,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "PORT OF DISCHARGE",
+					"bottom": "MOVEMENT ....",
+					"left": "PLACE OF DELIVERY",
+					"right": -1
+				}
+			},
+
+			"INSURANCE....": 
+			{
+				"row": [25,26],
+				"column": [186,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "MARKS & NOS",
+					"left": "INSURANCE....",
+					"right": "ETA"
+				}
+			},
+			"PRE-CARRIAGE BY.": 
+			{
+				"row": [19,20],
+				"column": [262,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "VOYAGE .....",
+					"left": "PRE-CARRIAGE",
+					"right": -1
+				}
+			},
+			"VOYAGE .....": 
+			{
+				"row": [20,21],
+				"column": [262,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "ETS.......",
+					"left": "VOYAGE .....",
+					"right": -1
+				}
+			},
+			"ETS.......": 
+			{
+				"row": [21,22],
+				"column": [262,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "ETA.......",
+					"left": "ETS.......",
+					"right": -1
+				}
+			},
+			"ETA.......": 
+			{
+				"row": [22,23],
+				"column": [262,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "MOVEMENT ....",
+					"left": "ETA.......",
+					"right": -1
+				}
+			},
+			"MOVEMENT ....": 
+			{
+				"row": [24,25],
+				"column": [262,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "INSURANCE",
+					"left": "MOVEMENT ....",
+					"right": -1
+				}
+			},
+			"DOCUMENT REQUIRED": 
+			{
+				"row": [30,31],
+				"column": [158,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "NO. OF ORIGINALS",
+					"left": "DOCUMENT REQUIRED",
+					"right": -1
+				}
+			},
+			"NO. OF ORIGINALS": 
+			{
+				"row": [32,33],
+				"column": [157,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "COPIES",
+					"left": "NO. OF ORIGINALS",
+					"right": -1
+				}
+			},
+			"COPIES": 
+			{
+				"row": [33,34],
+				"column": [158,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "FREIGHT PAYMENT",
+					"left": "COPIES",
+					"right": -1
+				}
+			},
+			"FREIGHT PAYMENT": 
+			{
+				"row": [34,35],
+				"column": [158,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "PS",
+					"left": "FREIGHT PAYMENT",
+					"right": -1
+				}
+			},
+			"PS": 
+			{
+				"row": [35,36],
+				"column": [142,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "CONTRACT NUMBER",
+					"left": "PS",
+					"right": -1
+				}
+			},
+			"CONTRACT NUMBER": 
+			{
+				"row": [37,38],
+				"column": [155,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "SECURITY FILING UNDERTAKEN BY KUEHNE + NAGEL",
+					"left": "CONTRACT NUMBER",
+					"right": -1
+				}
+			},
+
+
+			"MARKS & NOS_1": 
+			{
+				"row": [27,28],
+				"column": [139,186],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "MARKS & NOS",
+					"bottom": "TOTAL",
+					"left": -1,
+					"right": "QTY       PCS"
+				}
+			},
+			"QTY       PCS_1": 
+			{
+				"row": [27,28],
+				"column": [186,215],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "QTY       PCS",
+					"bottom": "TOTAL",
+					"left": "MARKS & NOS",
+					"right": "DESCRIPTION OF GOODS"
+				}
+			},
+			"DESCRIPTION OF GOODS_1": 
+			{
+				"row": [27,37],
+				"column": [215,258],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "DESCRIPTION OF GOODS",
+					"bottom": "TOTAL",
+					"left": "QTY       PCS",
+					"right": "GRSS WT KGS"
+				}
+			},
+			"GRSS WT KGS_1": 
+			{
+				"row": [27,28],
+				"column": [258,265],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "GRSS WT KGS",
+					"bottom": "TOTAL",
+					"left": "DESCRIPTION OF GOODS",
+					"right": "         CBM"
+				}
+			},
+			"CBM_1": 
+			{
+				"row": [27,28],
+				"column": [265,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "CBM",
+					"bottom": "TOTAL",
+					"left": "GRSS WT KGS         ",
+					"right": -1
+				}
+			}
+	},
+	"multi": 
+	{
+			"LINE AGENT": 
+			{
+				"row": [1,6],
+				"column": [139,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "LINE AGENT",
+					"bottom": "SHIPPER",
+					"left": -1,
+					"right": "OBL INSTRUCTIONS"
+				}
+			},
+			"OBL INSTRUCTIONS": 
+			{
+				"row": [4,6],
+				"column": [230,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "OBL INSTRUCTIONS",
+					"bottom": "NOTIFY",
+					"left": "LINE AGENT",
+					"right": -1
+				}
+			},
+			"SHIPPER": 
+			{
+				"row": [8,13],
+				"column": [139,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "SHIPPER",
+					"bottom": "CONSIGNEE",
+					"left": -1,
+					"right": "NOTIFY"
+				}
+			},
+			"NOTIFY": 
+			{
+				"row": [8,13],
+				"column": [229,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "NOTIFY",
+					"bottom": "CONSIGNEE",
+					"left": "SHIPPER",
+					"right": -1
+				}
+			},
+			"CONSIGNEE": 
+			{
+				"row": [15,18],
+				"column": [139,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "CONSIGNEE",
+					"bottom": "PLACE OF RECEIPT",
+					"left": -1,
+					"right": -1
+				}
+			},
+			"PLCAE OF RECEIPT": 
+			{
+				"row": [19,20],
+				"column": [186,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "OCEAN VESSEL ..",
+					"left": "PLACE OF RECEIPT",
+					"right": "PRE-CARRIAGE BY ."
+				}
+			},
+			"OCEAN VESSEL ..": 
+			{
+				"row": [20,21],
+				"column": [186,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "PORT OF LOADING .",
+					"left": "OCEAN VESSEL ..",
+					"right": "VOYAGE"
+				}
+			},
+			"PORT OF LOADING .": 
+			{
+				"row": [21,22],
+				"column": [186,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "PORT OF DISCHARGE",
+					"left": "PORT OF LOADING .",
+					"right": "ETS......."
+				}
+			},
+			"PORT OF DISCHARGE": 
+			{
+				"row": [22,23],
+				"column": [186,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "PLACE OF DELIVERY",
+					"left": "PORT OF DISCHARGE",
+					"right": "ETA"
+				}
+			},
+			"PLACE OF DELIVERY": 
+			{
+				"row": [23,24],
+				"column": [186,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "PORT OF DISCHARGE",
+					"bottom": "MOVEMENT ....",
+					"left": "PLACE OF DELIVERY",
+					"right": -1
+				}
+			},
+
+			"INSURANCE....": 
+			{
+				"row": [25,26],
+				"column": [186,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "MARKS & NOS",
+					"left": "INSURANCE....",
+					"right": "ETA"
+				}
+			},
+			"PRE-CARRIAGE BY.": 
+			{
+				"row": [19,20],
+				"column": [262,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "VOYAGE .....",
+					"left": "PRE-CARRIAGE",
+					"right": -1
+				}
+			},
+			"VOYAGE .....": 
+			{
+				"row": [20,21],
+				"column": [262,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "ETS.......",
+					"left": "VOYAGE .....",
+					"right": -1
+				}
+			},
+			"ETS.......": 
+			{
+				"row": [21,22],
+				"column": [262,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "ETA.......",
+					"left": "ETS.......",
+					"right": -1
+				}
+			},
+			"ETA.......": 
+			{
+				"row": [22,23],
+				"column": [262,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "MOVEMENT ....",
+					"left": "ETA.......",
+					"right": -1
+				}
+			},
+			"MOVEMENT ....": 
+			{
+				"row": [24,25],
+				"column": [262,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "INSURANCE",
+					"left": "MOVEMENT ....",
+					"right": -1
+				}
+			},
+			"DOCUMENT REQUIRED": 
+			{
+				"row": [30,31],
+				"column": [158,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "NO. OF ORIGINALS",
+					"left": "DOCUMENT REQUIRED",
+					"right": -1
+				}
+			},
+			"NO. OF ORIGINALS": 
+			{
+				"row": [32,33],
+				"column": [157,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "COPIES",
+					"left": "NO. OF ORIGINALS",
+					"right": -1
+				}
+			},
+			"COPIES": 
+			{
+				"row": [33,34],
+				"column": [158,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "FREIGHT PAYMENT",
+					"left": "COPIES",
+					"right": -1
+				}
+			},
+			"FREIGHT PAYMENT": 
+			{
+				"row": [34,35],
+				"column": [158,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "PS",
+					"left": "FREIGHT PAYMENT",
+					"right": -1
+				}
+			},
+			"PS": 
+			{
+				"row": [35,36],
+				"column": [142,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "CONTRACT NUMBER",
+					"left": "PS",
+					"right": -1
+				}
+			},
+			"CONTRACT NUMBER": 
+			{
+				"row": [37,38],
+				"column": [155,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "SECURITY FILING UNDERTAKEN BY KUEHNE + NAGEL",
+					"left": "CONTRACT NUMBER",
+					"right": -1
+				}
+			},
+
+
+			"MARKS & NOS_1":
+			{
+				"row": [27,28],
+				"column": [139,186],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "MARKS & NOS",
+					"bottom": "TOTAL",
+					"left": -1,
+					"right": "QTY       PCS"
+				}
+			},
+			"QTY       PCS_1": 
+			{
+				"row": [27,28],
+				"column": [186,215],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "QTY       PCS",
+					"bottom": "TOTAL",
+					"left": "MARKS & NOS",
+					"right": "DESCRIPTION OF GOODS"
+				}
+			},
+			"DESCRIPTION OF GOODS_1": 
+			{
+				"row": [27,37],
+				"column": [215,258],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "DESCRIPTION OF GOODS",
+					"bottom": "TOTAL",
+					"left": "QTY       PCS",
+					"right": "GRSS WT KGS"
+				}
+			},
+			"GRSS WT KGS_1": 
+			{
+				"row": [27,28],
+				"column": [258,265],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "GRSS WT KGS",
+					"bottom": "TOTAL",
+					"left": "DESCRIPTION OF GOODS",
+					"right": "         CBM"
+				}
+			},
+			"CBM_1": 
+			{
+				"row": [27,28],
+				"column": [265,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "CBM",
+					"bottom": "TOTAL",
+					"left": "GRSS WT KGS         ",
+					"right": -1
+				}
+			},
+			"MARKS & NOS_2": 
+			{
+				"row": [61,105],
+				"column": [0,14],
+				"isFlex": 1,
+				"endObject":
+				{
+					"top": "MARKS & NOS",
+					"bottom": "HBL",
+					"left": -1,
+					"right": "QTY       PCS"
+				}
+			},
+			"QTY       PCS_2": 
+			{
+				"row": [61,105],
+				"column": [14,27],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "QTY       PCS",
+					"bottom": "HBL",
+					"left": "MARKS & NOS",
+					"right": "DESCRIPTION OF GOODS"
+				}
+			},
+			"DESCRIPTION OF GOODS_2": 
+			{
+				"row": [61,108],
+				"column": [27,52],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "DESCRIPTION OF GOODS",
+					"bottom": "HBL",
+					"left": "QTY       PCS",
+					"right": "GRSS WT KGS"
+				}
+			},
+			"GRSS WT KGS_2": 
+			{
+				"row": [61,105],
+				"column": [52,64],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "GRSS WT KGS",
+					"bottom": "HBL",
+					"left": "DESCRIPTION OF GOODS",
+					"right": "         CBM"
+				}
+			},
+			"CBM_2": 
+			{
+				"row": [61,105],
+				"column": [64,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "CBM",
+					"bottom": "HBL",
+					"left": "GRSS WT KGS         ",
+					"right": -1
+				}
+			}
+	},
+	"3":
+	{
+			"LINE AGENT": 
+			{
+				"row": [1,6],
+				"column": [139,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "LINE AGENT",
+					"bottom": "SHIPPER",
+					"left": -1,
+					"right": "OBL INSTRUCTIONS"
+				}
+			},
+			"OBL INSTRUCTIONS": 
+			{
+				"row": [4,6],
+				"column": [230,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "OBL INSTRUCTIONS",
+					"bottom": "NOTIFY",
+					"left": "LINE AGENT",
+					"right": -1
+				}
+			},
+			"SHIPPER": 
+			{
+				"row": [8,13],
+				"column": [139,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "SHIPPER",
+					"bottom": "CONSIGNEE",
+					"left": -1,
+					"right": "NOTIFY"
+				}
+			},
+			"NOTIFY": 
+			{
+				"row": [8,13],
+				"column": [229,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "NOTIFY",
+					"bottom": "CONSIGNEE",
+					"left": "SHIPPER",
+					"right": -1
+				}
+			},
+			"CONSIGNEE": 
+			{
+				"row": [15,18],
+				"column": [139,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "CONSIGNEE",
+					"bottom": "PLACE OF RECEIPT",
+					"left": -1,
+					"right": -1
+				}
+			},
+			"PLCAE OF RECEIPT": 
+			{
+				"row": [19,20],
+				"column": [186,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "OCEAN VESSEL ..",
+					"left": "PLACE OF RECEIPT",
+					"right": "PRE-CARRIAGE BY ."
+				}
+			},
+			"OCEAN VESSEL ..": 
+			{
+				"row": [20,21],
+				"column": [186,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "PORT OF LOADING .",
+					"left": "OCEAN VESSEL ..",
+					"right": "VOYAGE"
+				}
+			},
+			"PORT OF LOADING .": 
+			{
+				"row": [21,22],
+				"column": [186,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "PORT OF DISCHARGE",
+					"left": "PORT OF LOADING .",
+					"right": "ETS......."
+				}
+			},
+			"PORT OF DISCHARGE": 
+			{
+				"row": [22,23],
+				"column": [186,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "PLACE OF DELIVERY",
+					"left": "PORT OF DISCHARGE",
+					"right": "ETA"
+				}
+			},
+			"PLACE OF DELIVERY": 
+			{
+				"row": [23,24],
+				"column": [186,230],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "PORT OF DISCHARGE",
+					"bottom": "MOVEMENT ....",
+					"left": "PLACE OF DELIVERY",
+					"right": -1
+				}
+			},
+
+			"INSURANCE....": 
+			{
+				"row": [25,26],
+				"column": [186,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "MARKS & NOS",
+					"left": "INSURANCE....",
+					"right": "ETA"
+				}
+			},
+			"PRE-CARRIAGE BY.": 
+			{
+				"row": [19,20],
+				"column": [262,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "VOYAGE .....",
+					"left": "PRE-CARRIAGE",
+					"right": -1
+				}
+			},
+			"VOYAGE .....": 
+			{
+				"row": [20,21],
+				"column": [262,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "ETS.......",
+					"left": "VOYAGE .....",
+					"right": -1
+				}
+			},
+			"ETS.......": 
+			{
+				"row": [21,22],
+				"column": [262,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "ETA.......",
+					"left": "ETS.......",
+					"right": -1
+				}
+			},
+			"ETA.......": 
+			{
+				"row": [22,23],
+				"column": [262,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "MOVEMENT ....",
+					"left": "ETA.......",
+					"right": -1
+				}
+			},
+			"MOVEMENT ....": 
+			{
+				"row": [24,25],
+				"column": [262,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "INSURANCE",
+					"left": "MOVEMENT ....",
+					"right": -1
+				}
+			},
+			"DOCUMENT REQUIRED": 
+			{
+				"row": [30,31],
+				"column": [158,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "NO. OF ORIGINALS",
+					"left": "DOCUMENT REQUIRED",
+					"right": -1
+				}
+			},
+			"NO. OF ORIGINALS": 
+			{
+				"row": [32,33],
+				"column": [157,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "COPIES",
+					"left": "NO. OF ORIGINALS",
+					"right": -1
+				}
+			},
+			"COPIES": 
+			{
+				"row": [33,34],
+				"column": [158,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "FREIGHT PAYMENT",
+					"left": "COPIES",
+					"right": -1
+				}
+			},
+			"FREIGHT PAYMENT": 
+			{
+				"row": [34,35],
+				"column": [158,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "PS",
+					"left": "FREIGHT PAYMENT",
+					"right": -1
+				}
+			},
+			"PS": 
+			{
+				"row": [35,36],
+				"column": [142,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "CONTRACT NUMBER",
+					"left": "PS",
+					"right": -1
+				}
+			},
+			"CONTRACT NUMBER": 
+			{
+				"row": [37,38],
+				"column": [155,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "same_left",
+					"bottom": "SECURITY FILING UNDERTAKEN BY KUEHNE + NAGEL",
+					"left": "CONTRACT NUMBER",
+					"right": -1
+				}
+			},
+
+
+			"MARKS & NOS_1":
+			{
+				"row": [27,28],
+				"column": [139,186],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "MARKS & NOS",
+					"bottom": "TOTAL",
+					"left": -1,
+					"right": "QTY       PCS"
+				}
+			},
+			"QTY       PCS_1": 
+			{
+				"row": [27,28],
+				"column": [186,215],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "QTY       PCS",
+					"bottom": "TOTAL",
+					"left": "MARKS & NOS",
+					"right": "DESCRIPTION OF GOODS"
+				}
+			},
+			"DESCRIPTION OF GOODS_1": 
+			{
+				"row": [27,37],
+				"column": [215,258],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "DESCRIPTION OF GOODS",
+					"bottom": "TOTAL",
+					"left": "QTY       PCS",
+					"right": "GRSS WT KGS"
+				}
+			},
+			"GRSS WT KGS_1": 
+			{
+				"row": [27,28],
+				"column": [258,265],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "GRSS WT KGS",
+					"bottom": "TOTAL",
+					"left": "DESCRIPTION OF GOODS",
+					"right": "         CBM"
+				}
+			},
+			"CBM_1": 
+			{
+				"row": [27,28],
+				"column": [265,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "CBM",
+					"bottom": "TOTAL",
+					"left": "GRSS WT KGS         ",
+					"right": -1
+				}
+			},
+			"MARKS & NOS_2": 
+			{
+				"row": [61,105],
+				"column": [0,14],
+				"isFlex": 1,
+				"endObject":
+				{
+					"top": "MARKS & NOS",
+					"bottom": "2  OF   3",
+					"left": -1,
+					"right": "QTY       PCS"
+				}
+			},
+			"QTY       PCS_2": 
+			{
+				"row": [61,105],
+				"column": [14,27],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "QTY       PCS",
+					"bottom": "2  OF   3",
+					"left": "MARKS & NOS",
+					"right": "DESCRIPTION OF GOODS"
+				}
+			},
+			"DESCRIPTION OF GOODS_2": 
+			{
+				"row": [61,108],
+				"column": [27,52],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "DESCRIPTION OF GOODS",
+					"bottom": "2  OF   3",
+					"left": "QTY       PCS",
+					"right": "GRSS WT KGS"
+				}
+			},
+			"GRSS WT KGS_2": 
+			{
+				"row": [61,105],
+				"column": [52,64],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "GRSS WT KGS",
+					"bottom": "2  OF   3",
+					"left": "DESCRIPTION OF GOODS",
+					"right": "         CBM"
+				}
+			},
+			"CBM_2": 
+			{
+				"row": [61,105],
+				"column": [64,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "CBM",
+					"bottom": "2  OF   3",
+					"left": "GRSS WT KGS         ",
+					"right": -1
+				}
+			},
+			"MARKS & NOS_3": 
+			{
+				"row": [118,122],
+				"column": [0,14],
+				"isFlex": 1,
+				"endObject":
+				{
+					"top": "MARKS & NOS",
+					"bottom": "3  OF   3",
+					"left": -1,
+					"right": "QTY       PCS"
+				}
+			},
+			"QTY       PCS_3": 
+			{
+				"row": [118,122],
+				"column": [14,23],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "QTY       PCS",
+					"bottom": "3  OF   3",
+					"left": "MARKS & NOS",
+					"right": "DESCRIPTION OF GOODS"
+				}
+			},
+			"DESCRIPTION OF GOODS_3": 
+			{
+				"row": [118,122],
+				"column": [23,52],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "DESCRIPTION OF GOODS",
+					"bottom": "3  OF   3",
+					"left": "QTY       PCS",
+					"right": "GRSS WT KGS"
+				}
+			},
+			"GRSS WT KGS_3": 
+			{
+				"row": [118,122],
+				"column": [52,74],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "GRSS WT KGS",
+					"bottom": "3  OF   3",
+					"left": "DESCRIPTION OF GOODS",
+					"right": "         CBM"
+				}
+			},
+			"CBM_3": 
+			{
+				"row": [118,122],
+				"column": [74,null],
+				"isFlex": 1,
+				"endObject": 
+				{
+					"top": "CBM",
+					"bottom": "3  OF   3",
+					"left": "GRSS WT KGS         ",
+					"right": -1
+				}
+			}
+	}
+}
